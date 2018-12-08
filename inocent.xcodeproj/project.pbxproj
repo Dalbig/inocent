@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A252CC2DDE011A942B30E198 /* Pods_inocent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65DB8AF6F95B97EB22142100 /* Pods_inocent.framework */; };
 		CE6A8B0821BBBA2500917A6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A8B0721BBBA2500917A6A /* AppDelegate.swift */; };
 		CE6A8B0A21BBBA2500917A6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A8B0921BBBA2500917A6A /* ViewController.swift */; };
 		CE6A8B0D21BBBA2500917A6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6A8B0B21BBBA2500917A6A /* Main.storyboard */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		65DB8AF6F95B97EB22142100 /* Pods_inocent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_inocent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC24EE3D4E47EE79FB188A14 /* Pods-inocent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inocent.release.xcconfig"; path = "Pods/Target Support Files/Pods-inocent/Pods-inocent.release.xcconfig"; sourceTree = "<group>"; };
 		CE6A8B0421BBBA2500917A6A /* inocent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inocent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6A8B0721BBBA2500917A6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE6A8B0921BBBA2500917A6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -34,6 +37,7 @@
 		CE6A8B2621BBBE7900917A6A /* MakeTrialVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeTrialVC.swift; sourceTree = "<group>"; };
 		CE6A8B2821BBBE9700917A6A /* MypageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MypageVC.swift; sourceTree = "<group>"; };
 		CE6A8B2B21BBBF7D00917A6A /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		FA5EBE9A59A90094BF377816 /* Pods-inocent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inocent.debug.xcconfig"; path = "Pods/Target Support Files/Pods-inocent/Pods-inocent.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A252CC2DDE011A942B30E198 /* Pods_inocent.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05357470EA9E28AFC8096184 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA5EBE9A59A90094BF377816 /* Pods-inocent.debug.xcconfig */,
+				BC24EE3D4E47EE79FB188A14 /* Pods-inocent.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		841DAD9AE592BF75AF06E435 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65DB8AF6F95B97EB22142100 /* Pods_inocent.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CE6A8AFB21BBBA2500917A6A = {
 			isa = PBXGroup;
 			children = (
 				CE6A8B0621BBBA2500917A6A /* inocent */,
 				CE6A8B0521BBBA2500917A6A /* Products */,
+				05357470EA9E28AFC8096184 /* Pods */,
+				841DAD9AE592BF75AF06E435 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -153,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE6A8B1621BBBA2A00917A6A /* Build configuration list for PBXNativeTarget "inocent" */;
 			buildPhases = (
+				CFC88440B5529D3069D1688D /* [CP] Check Pods Manifest.lock */,
 				CE6A8B0021BBBA2500917A6A /* Sources */,
 				CE6A8B0121BBBA2500917A6A /* Frameworks */,
 				CE6A8B0221BBBA2500917A6A /* Resources */,
+				CF9FB370C517D9689FD51094 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -211,6 +237,49 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CF9FB370C517D9689FD51094 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-inocent/Pods-inocent-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-inocent/Pods-inocent-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFC88440B5529D3069D1688D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-inocent-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CE6A8B0021BBBA2500917A6A /* Sources */ = {
@@ -366,15 +435,13 @@
 		};
 		CE6A8B1721BBBA2A00917A6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA5EBE9A59A90094BF377816 /* Pods-inocent.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9H2N5MANM3;
 				INFOPLIST_FILE = inocent/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yulmong.inocent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -384,15 +451,13 @@
 		};
 		CE6A8B1821BBBA2A00917A6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC24EE3D4E47EE79FB188A14 /* Pods-inocent.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9H2N5MANM3;
 				INFOPLIST_FILE = inocent/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yulmong.inocent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
