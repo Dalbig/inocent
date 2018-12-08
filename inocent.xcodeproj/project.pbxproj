@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		A252CC2DDE011A942B30E198 /* Pods_inocent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65DB8AF6F95B97EB22142100 /* Pods_inocent.framework */; };
 		CE6A8B0821BBBA2500917A6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A8B0721BBBA2500917A6A /* AppDelegate.swift */; };
-		CE6A8B0A21BBBA2500917A6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A8B0921BBBA2500917A6A /* ViewController.swift */; };
 		CE6A8B0D21BBBA2500917A6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6A8B0B21BBBA2500917A6A /* Main.storyboard */; };
 		CE6A8B0F21BBBA2A00917A6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6A8B0E21BBBA2A00917A6A /* Assets.xcassets */; };
 		CE6A8B1221BBBA2A00917A6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6A8B1021BBBA2A00917A6A /* LaunchScreen.storyboard */; };
@@ -26,7 +25,6 @@
 		BC24EE3D4E47EE79FB188A14 /* Pods-inocent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inocent.release.xcconfig"; path = "Pods/Target Support Files/Pods-inocent/Pods-inocent.release.xcconfig"; sourceTree = "<group>"; };
 		CE6A8B0421BBBA2500917A6A /* inocent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inocent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6A8B0721BBBA2500917A6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE6A8B0921BBBA2500917A6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE6A8B0C21BBBA2500917A6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE6A8B0E21BBBA2A00917A6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE6A8B1121BBBA2A00917A6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -93,7 +91,6 @@
 				CE6A8B1A21BBBB4000917A6A /* UI */,
 				CE6A8B1921BBBB2500917A6A /* Model */,
 				CE6A8B0721BBBA2500917A6A /* AppDelegate.swift */,
-				CE6A8B0921BBBA2500917A6A /* ViewController.swift */,
 				CE6A8B0B21BBBA2500917A6A /* Main.storyboard */,
 				CE6A8B0E21BBBA2A00917A6A /* Assets.xcassets */,
 				CE6A8B1021BBBA2A00917A6A /* LaunchScreen.storyboard */,
@@ -287,7 +284,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE6A8B2021BBBDB700917A6A /* HomeVC.swift in Sources */,
-				CE6A8B0A21BBBA2500917A6A /* ViewController.swift in Sources */,
 				CE6A8B2921BBBE9700917A6A /* MypageVC.swift in Sources */,
 				CE6A8B0821BBBA2500917A6A /* AppDelegate.swift in Sources */,
 				CE6A8B2721BBBE7900917A6A /* MakeTrialVC.swift in Sources */,
@@ -441,7 +437,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9H2N5MANM3;
 				INFOPLIST_FILE = inocent/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yulmong.inocent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -457,7 +456,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9H2N5MANM3;
 				INFOPLIST_FILE = inocent/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yulmong.inocent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
