@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="AKy-aY-Rk7">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -32,15 +32,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <connections>
-                        <segue destination="AKy-aY-Rk7" kind="show" identifier="WelcomeToMainTabSegue" id="rOB-MP-oAE"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-146.40000000000001" y="126.38680659670166"/>
+            <point key="canvasLocation" x="-719" y="125"/>
         </scene>
-        <!--Item-->
+        <!--MakeTrial-->
         <scene sceneID="2I7-mb-F1L">
             <objects>
                 <viewController id="O0W-NN-LN5" sceneMemberID="viewController">
@@ -50,13 +47,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="dYI-YH-1iP"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="Fc0-xc-qpI"/>
+                    <tabBarItem key="tabBarItem" title="MakeTrial" id="Fc0-xc-qpI"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wQ4-2r-Xer" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="134" y="952"/>
         </scene>
-        <!--Item-->
+        <!--Mypage-->
         <scene sceneID="MRU-tH-SRn">
             <objects>
                 <viewController id="fJV-lo-RPb" sceneMemberID="viewController">
@@ -66,48 +63,93 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="rIq-s2-VDa"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="5Xa-Vm-50n"/>
+                    <tabBarItem key="tabBarItem" title="Mypage" id="5Xa-Vm-50n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NMO-lX-Bft" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="870" y="952"/>
         </scene>
-        <!--Item 2-->
+        <!--TrialList-->
         <scene sceneID="dxS-8F-EGh">
             <objects>
                 <viewController id="uk7-GS-8aD" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1L3-Ly-4Hg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R8X-dg-GDH">
+                                <rect key="frame" x="0.0" y="20" width="375" height="598"/>
+                                <connections>
+                                    <segue destination="zEQ-Va-vd6" kind="embed" id="OnB-iL-Rbg"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="fTc-t8-nVb" firstAttribute="bottom" secondItem="R8X-dg-GDH" secondAttribute="bottom" id="FsD-Gs-LjJ"/>
+                            <constraint firstItem="R8X-dg-GDH" firstAttribute="top" secondItem="fTc-t8-nVb" secondAttribute="top" id="IaX-B3-PQb"/>
+                            <constraint firstItem="fTc-t8-nVb" firstAttribute="trailing" secondItem="R8X-dg-GDH" secondAttribute="trailing" id="KqN-bk-5xO"/>
+                            <constraint firstItem="R8X-dg-GDH" firstAttribute="leading" secondItem="fTc-t8-nVb" secondAttribute="leading" id="rex-rw-Imt"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="fTc-t8-nVb"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="oER-vy-2iq"/>
+                    <tabBarItem key="tabBarItem" title="TrialList" id="oER-vy-2iq"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XZT-Kh-vfX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1579" y="469"/>
         </scene>
-        <!--Item 1-->
+        <!--TrialListRootNav-->
+        <scene sceneID="O02-Le-Xgy">
+            <objects>
+                <viewControllerPlaceholder storyboardName="TrialList" referencedIdentifier="TrialListRootNav" id="zEQ-Va-vd6" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JU5-rj-KME" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2207" y="471"/>
+        </scene>
+        <!--HotTrial-->
         <scene sceneID="Xei-Sz-Pge">
             <objects>
-                <viewController id="RyO-VB-LXy" customClass="HomeVC" customModule="inocent" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="crossDissolve" id="RyO-VB-LXy" customClass="HomeVC" customModule="inocent" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ySN-xS-Hcq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Csy-sE-zw3">
+                                <rect key="frame" x="0.0" y="20" width="375" height="598"/>
+                                <connections>
+                                    <segue destination="Hfa-pf-Br2" kind="embed" id="UyS-no-wSf"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="0v6-Hn-VyD" firstAttribute="trailing" secondItem="Csy-sE-zw3" secondAttribute="trailing" id="3oR-Ja-Zsd"/>
+                            <constraint firstItem="0v6-Hn-VyD" firstAttribute="bottom" secondItem="Csy-sE-zw3" secondAttribute="bottom" id="6Qb-Ly-MCo"/>
+                            <constraint firstItem="Csy-sE-zw3" firstAttribute="leading" secondItem="0v6-Hn-VyD" secondAttribute="leading" id="qUn-lY-9os"/>
+                            <constraint firstItem="Csy-sE-zw3" firstAttribute="top" secondItem="0v6-Hn-VyD" secondAttribute="top" id="se7-7E-ODN"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="0v6-Hn-VyD"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="8zg-gm-FP0"/>
+                    <tabBarItem key="tabBarItem" title="HotTrial" id="8zg-gm-FP0"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yvF-AH-vIC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1579" y="-197"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--HotTrialRootNav-->
+        <scene sceneID="NCo-Wq-qIN">
+            <objects>
+                <viewControllerPlaceholder storyboardName="HotTrial" referencedIdentifier="HotTrialRootNav" id="Hfa-pf-Br2" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9zP-WH-w6F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2211" y="-198"/>
+        </scene>
+        <!--Main Tab Controller-->
         <scene sceneID="bAP-Wy-Fmp">
             <objects>
-                <tabBarController id="AKy-aY-Rk7" sceneMemberID="viewController">
+                <tabBarController id="AKy-aY-Rk7" customClass="MainTabController" customModule="inocent" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="01P-6y-v6j"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="jhA-r8-vW5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>

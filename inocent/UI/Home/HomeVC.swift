@@ -10,4 +10,7 @@ import UIKit
 
 class HomeVC : BaseTabItemVC {
     
+    @IBAction func test(_ sender: Any) {
+        performSegue(withIdentifier: "HomeToHotTrialSegue", sender: nil)
+    }
 }

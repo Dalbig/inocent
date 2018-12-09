@@ -11,7 +11,7 @@ import UIKit
 class WelcomeVC: UIViewController {
     override func viewDidLoad() {
         DispatchQueue.main.asyncAfter(deadline: DispatchTime(uptimeNanoseconds: 1000000)) {
-            self.performSegue(withIdentifier: "WelcomeToMainTabSegue", sender: nil)
+            self.performSegue(withIdentifier: "WelcomeToNavSegue", sender: nil)
         }
     }
 }

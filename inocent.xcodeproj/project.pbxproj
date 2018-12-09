@@ -18,6 +18,15 @@
 		CE6A8B2721BBBE7900917A6A /* MakeTrialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A8B2621BBBE7900917A6A /* MakeTrialVC.swift */; };
 		CE6A8B2921BBBE9700917A6A /* MypageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A8B2821BBBE9700917A6A /* MypageVC.swift */; };
 		CE6A8B2C21BBBF7D00917A6A /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A8B2B21BBBF7D00917A6A /* WelcomeVC.swift */; };
+		CE6A8B2F21BBC71E00917A6A /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A8B2E21BBC71E00917A6A /* MainTabController.swift */; };
+		CE6A8B3221BBCA1D00917A6A /* TrialDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6A8B3121BBCA1D00917A6A /* TrialDetail.storyboard */; };
+		CE6A8B3421BBCA5900917A6A /* TrialDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A8B3321BBCA5900917A6A /* TrialDetailVC.swift */; };
+		CE6A8B3A21BBD19600917A6A /* HotTrialCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A8B3921BBD19600917A6A /* HotTrialCollectionViewCell.swift */; };
+		CE6A8B3D21BCE97500917A6A /* RootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A8B3C21BCE97500917A6A /* RootVC.swift */; };
+		CE6A8B3F21BCEAB700917A6A /* HotTrial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6A8B3E21BCEAB700917A6A /* HotTrial.storyboard */; };
+		CE6A8B4321BCED6500917A6A /* HotTrialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A8B4221BCED6500917A6A /* HotTrialVC.swift */; };
+		CE6A8B4521BCF08F00917A6A /* TrialList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6A8B4421BCF08F00917A6A /* TrialList.storyboard */; };
+		CE6A8B4721BCF19500917A6A /* TrialListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A8B4621BCF19500917A6A /* TrialListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +44,15 @@
 		CE6A8B2621BBBE7900917A6A /* MakeTrialVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeTrialVC.swift; sourceTree = "<group>"; };
 		CE6A8B2821BBBE9700917A6A /* MypageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MypageVC.swift; sourceTree = "<group>"; };
 		CE6A8B2B21BBBF7D00917A6A /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		CE6A8B2E21BBC71E00917A6A /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainTabController.swift; path = ../../../../../Documents/MainTabController.swift; sourceTree = "<group>"; };
+		CE6A8B3121BBCA1D00917A6A /* TrialDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = TrialDetail.storyboard; path = ../../../../../Documents/TrialDetail.storyboard; sourceTree = "<group>"; };
+		CE6A8B3321BBCA5900917A6A /* TrialDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TrialDetailVC.swift; path = ../../../../../Documents/TrialDetailVC.swift; sourceTree = "<group>"; };
+		CE6A8B3921BBD19600917A6A /* HotTrialCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HotTrialCollectionViewCell.swift; path = ../../../../../../Documents/HotTrialCollectionViewCell.swift; sourceTree = "<group>"; };
+		CE6A8B3C21BCE97500917A6A /* RootVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RootVC.swift; path = ../../../../../Documents/RootVC.swift; sourceTree = "<group>"; };
+		CE6A8B3E21BCEAB700917A6A /* HotTrial.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = HotTrial.storyboard; path = ../../../../../../Documents/HotTrial.storyboard; sourceTree = "<group>"; };
+		CE6A8B4221BCED6500917A6A /* HotTrialVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotTrialVC.swift; sourceTree = "<group>"; };
+		CE6A8B4421BCF08F00917A6A /* TrialList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TrialList.storyboard; sourceTree = "<group>"; };
+		CE6A8B4621BCF19500917A6A /* TrialListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrialListTableViewCell.swift; sourceTree = "<group>"; };
 		FA5EBE9A59A90094BF377816 /* Pods-inocent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inocent.debug.xcconfig"; path = "Pods/Target Support Files/Pods-inocent/Pods-inocent.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +127,8 @@
 		CE6A8B1A21BBBB4000917A6A /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				CE6A8B3B21BCE96900917A6A /* Root */,
+				CE6A8B3021BBC9FF00917A6A /* TrialDetail */,
 				CE6A8B2A21BBBF6900917A6A /* Welcome */,
 				CE6A8B2121BBBDCD00917A6A /* Common */,
 				CE6A8B1D21BBBD4000917A6A /* MyPage */,
@@ -122,6 +142,7 @@
 		CE6A8B1B21BBBD0E00917A6A /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				CE6A8B3721BBD17000917A6A /* HotTrial */,
 				CE6A8B1F21BBBDB700917A6A /* HomeVC.swift */,
 			);
 			path = Home;
@@ -131,6 +152,8 @@
 			isa = PBXGroup;
 			children = (
 				CE6A8B2421BBBE5A00917A6A /* TrialListVC.swift */,
+				CE6A8B4421BCF08F00917A6A /* TrialList.storyboard */,
+				CE6A8B4621BCF19500917A6A /* TrialListTableViewCell.swift */,
 			);
 			path = TrialList;
 			sourceTree = "<group>";
@@ -155,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				CE6A8B2221BBBDDE00917A6A /* BaseTabItemVC.swift */,
+				CE6A8B2E21BBC71E00917A6A /* MainTabController.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -165,6 +189,33 @@
 				CE6A8B2B21BBBF7D00917A6A /* WelcomeVC.swift */,
 			);
 			path = Welcome;
+			sourceTree = "<group>";
+		};
+		CE6A8B3021BBC9FF00917A6A /* TrialDetail */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A8B3121BBCA1D00917A6A /* TrialDetail.storyboard */,
+				CE6A8B3321BBCA5900917A6A /* TrialDetailVC.swift */,
+			);
+			path = TrialDetail;
+			sourceTree = "<group>";
+		};
+		CE6A8B3721BBD17000917A6A /* HotTrial */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A8B3921BBD19600917A6A /* HotTrialCollectionViewCell.swift */,
+				CE6A8B3E21BCEAB700917A6A /* HotTrial.storyboard */,
+				CE6A8B4221BCED6500917A6A /* HotTrialVC.swift */,
+			);
+			path = HotTrial;
+			sourceTree = "<group>";
+		};
+		CE6A8B3B21BCE96900917A6A /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A8B3C21BCE97500917A6A /* RootVC.swift */,
+			);
+			path = Root;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +278,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6A8B3221BBCA1D00917A6A /* TrialDetail.storyboard in Resources */,
+				CE6A8B4521BCF08F00917A6A /* TrialList.storyboard in Resources */,
+				CE6A8B3F21BCEAB700917A6A /* HotTrial.storyboard in Resources */,
 				CE6A8B1221BBBA2A00917A6A /* LaunchScreen.storyboard in Resources */,
 				CE6A8B0F21BBBA2A00917A6A /* Assets.xcassets in Resources */,
 				CE6A8B0D21BBBA2500917A6A /* Main.storyboard in Resources */,
@@ -286,10 +340,16 @@
 				CE6A8B2021BBBDB700917A6A /* HomeVC.swift in Sources */,
 				CE6A8B2921BBBE9700917A6A /* MypageVC.swift in Sources */,
 				CE6A8B0821BBBA2500917A6A /* AppDelegate.swift in Sources */,
+				CE6A8B3421BBCA5900917A6A /* TrialDetailVC.swift in Sources */,
 				CE6A8B2721BBBE7900917A6A /* MakeTrialVC.swift in Sources */,
 				CE6A8B2521BBBE5A00917A6A /* TrialListVC.swift in Sources */,
+				CE6A8B3A21BBD19600917A6A /* HotTrialCollectionViewCell.swift in Sources */,
+				CE6A8B4321BCED6500917A6A /* HotTrialVC.swift in Sources */,
+				CE6A8B3D21BCE97500917A6A /* RootVC.swift in Sources */,
 				CE6A8B2321BBBDDE00917A6A /* BaseTabItemVC.swift in Sources */,
+				CE6A8B4721BCF19500917A6A /* TrialListTableViewCell.swift in Sources */,
 				CE6A8B2C21BBBF7D00917A6A /* WelcomeVC.swift in Sources */,
+				CE6A8B2F21BBC71E00917A6A /* MainTabController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +494,8 @@
 			baseConfigurationReference = FA5EBE9A59A90094BF377816 /* Pods-inocent.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 9H2N5MANM3;
 				INFOPLIST_FILE = inocent/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -443,6 +504,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yulmong.inocent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Inocent;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -453,7 +515,8 @@
 			baseConfigurationReference = BC24EE3D4E47EE79FB188A14 /* Pods-inocent.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 9H2N5MANM3;
 				INFOPLIST_FILE = inocent/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -462,6 +525,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yulmong.inocent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Inocent;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
